@@ -1,7 +1,7 @@
 # Real-time Audio Synthesis from Scrolling News Tickers in Live News Video Streams for Visually Impaired
 
 ## Description
-This is a system to convert scrolling news ticker text in live video streams into clear, real-time audio. The goal is to provide an accessible information source for visually impaired individuals, promoting inclusivity and engagement.
+This is a system developed in Python to convert scrolling news ticker text in live video streams into clear, real-time audio. The goal is to provide an accessible information source for visually impaired individuals, promoting inclusivity and engagement.
 The system uses motion-based text detection for specifically detecting ticker text in live videos, and subsequently extracting the ticker text using OCR. It also incorporates spell checkers and non-common string concatenation algorithms to
 minimize textual errors and generate smooth text sentences. Finally, real-time text-to-speech technologies like PyTTS convert the text to audio. 
 This system was developed as part of my college degree project, where I collaborated with [Indirakanth](https://github.com/indira1vik) in developing the implementation and documentation for our system.
